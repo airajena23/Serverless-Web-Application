@@ -4,7 +4,7 @@ In this module you'll create an [Amazon Cognito][cognito] user pool to manage yo
 
 ## Architecture Overview
 
-When users visit your website they will first register a new user account. For the purposes of this workshop we'll only require them to provide an email address and password to register. However, you can configure Amazon Cognito to require additional attributes in your own applications.
+When users visit your website they will first register a new user account. For the purposes of this  we'll only require them to provide an email address and password to register. However, you can configure Amazon Cognito to require additional attributes in your own applications.
 
 After users submit their registration, Amazon Cognito will send a confirmation email with a verification code to the address they provided. To confirm their account, users will return to your site and enter their email address and the verification code they received. You can also confirm user accounts using the Amazon Cognito console if you want to use fake email addresses for testing.
 
